@@ -1,0 +1,157 @@
+
+@font-face {
+    font-family: ombre;
+    src: url("Font/Belly.ttf");
+}
+.p{
+    font-family: ombre;
+    font-size: 25px;
+    color: red;
+}
+@font-face {
+    font-family: Titre ;
+    src: url("Font/OriginTech personal use.otf");
+}
+.bienvenue{
+    font-family: Titre;
+    color: red;
+}
+
+input,select{
+    text-align: center;
+    width: 100%;
+    padding: 7px 12px;
+    border-radius: 9px;
+    
+}
+input[type="number"]{
+    box-sizing: border-box;
+}
+input[type="submit"],input[type="button"]{
+    background-color: #f3e4e4;
+    border: none;
+    color: red;
+    font-size: 24px;
+    padding: 9px 10px;
+    font-family: none;
+    letter-spacing: 3px;
+}
+input[type="button"]:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: red;
+    color: #f3e4e4;
+}
+input[type="submit"]:hover{
+    transition: 0.3s;
+    cursor: pointer;
+    background-color: red;
+    color: #f3e4e4;
+}
+
+
+option{
+    text-align: center;
+}
+table{
+    width: 100%;
+    
+}
+.ligne  a{
+    color: black;
+    text-decoration: none;
+    font-weight:bold ;
+    font-size: 20px;
+}
+table td{
+    height: 150px;
+    text-align: center;
+}
+th{
+    text-align: center;
+    color: red;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ligne div a{
+    font-size: 30px;
+    text-decoration: none;
+}
+.ligne div a:hover {
+    transition: 0.5s;
+    animation: secouer 3s infinite;
+    color: red;
+}
+.image{
+    box-shadow: 0px 0px 15px rgba(29, 27, 27, 0.808),0;
+    border-radius: 20px;
+}
+.section{
+    box-shadow: 3px 6px 8px #bec9be, -3px -3px 9px red;
+    padding: 32px;
+    border-radius: 15px;
+}
+
+@keyframes clignoter {
+    0%{
+        box-shadow:0px 0px 24px rgb(245, 5, 5);
+    }
+    25%{
+        box-shadow:0px 0px 24px rgb(233, 214, 214);
+    }
+    50%{
+        box-shadow:0px 0px 24px rgb(245, 5, 5);
+    }
+    75%{
+        box-shadow:0px 0px 24px rgb(233, 214, 214);
+    }
+    100%{
+        box-shadow:0px 0px 24px rgb(245, 5, 5);
+    }
+    
+}
+.perdu{
+    animation: zoom 3s infinite;
+}
+.bravo{
+    display: inline-block;
+    animation:secouer 1.5s infinite;
+}
+@keyframes zoom {
+    0%{
+        transform: scale(1);
+    }
+    25%{
+        transform: scale(1.5);
+        color: red;
+    }
+    50%{
+        transform: scale(1);
+    }
+    75%{
+        transform: scale(1.5);
+        color: red;
+    }
+    100%{
+        transform: scale(1);
+    }
+}
+@keyframes secouer {
+    37.5%{
+        font-size: 30px ;
+        transform: rotate(35deg);
+        color: rgb(17, 233, 17);
+    }
+    75%{
+        font-size: 30px ;
+        transform: rotate(-35deg);
+        color: rgb(17, 233, 17);
+    }
+    
+}
+#annuler:hover{
+    color:  rgb(243 61 61);
+    background-color: aliceblue;
+}
+
+

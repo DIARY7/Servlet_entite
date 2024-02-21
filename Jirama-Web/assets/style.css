@@ -1,0 +1,9 @@
+body{
+    background-color: rgb(241 245 245 / 85%);
+}
+.div-lp{
+    margin-top: 15px;
+    background-color: white;
+    border-radius: 15px;
+    padding: 47px;
+}
